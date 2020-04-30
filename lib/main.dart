@@ -3,8 +3,15 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Center(
-        child: Text('XXXX'),
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          title: Text('I am a Rich Kiddo'),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        body: Image(
+          image: NetworkImage(),
+        ),
       ),
     ),
   );
